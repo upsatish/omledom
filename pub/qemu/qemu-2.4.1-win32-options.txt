@@ -1,0 +1,107 @@
+Install prefix    /home/anoth/qemu-2.4.1/qemu-2.4.1-win32
+BIOS directory    /home/anoth/qemu-2.4.1/qemu-2.4.1-win32
+binary directory  /home/anoth/qemu-2.4.1/qemu-2.4.1-win32
+library directory /home/anoth/qemu-2.4.1/qemu-2.4.1-win32/lib
+module directory  /home/anoth/qemu-2.4.1/qemu-2.4.1-win32/lib
+libexec directory /home/anoth/qemu-2.4.1/qemu-2.4.1-win32/libexec
+include directory /home/anoth/qemu-2.4.1/qemu-2.4.1-win32/include
+config directory  /home/anoth/qemu-2.4.1/qemu-2.4.1-win32
+local state directory   queried at runtime
+Windows SDK       no
+Source path       /home/anoth/qemu-2.4.1
+C compiler        cc
+Host C compiler   cc
+C++ compiler      c++
+Objective-C compiler cc
+ARFLAGS           rv
+CFLAGS            -O2 -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -mms-bitfields -Ic:/mingw/include/glib-2.0 -Ic:/mingw/lib/glib-2.0/include   -g 
+QEMU_CFLAGS       -Ic:/mingw/include/pixman-1   -I$(SRC_PATH)/dtc/libfdt -m32 -D__USE_MINGW_ANSI_STDIO=1 -DWIN32_LEAN_AND_MEAN -DWINVER=0x501 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common  -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -Ic:/mingw/include/libpng14  
+LDFLAGS           -Wl,--nxcompat -Wl,--no-seh -Wl,--dynamicbase -Wl,--warn-common -m32 -g 
+make              make
+install           install
+python            /c/Python27/python.exe -B
+smbd              /usr/sbin/smbd
+module support    no
+host CPU          i386
+host big endian   no
+target list        aarch64-softmmu alpha-softmmu arm-softmmu cris-softmmu i386-softmmu lm32-softmmu m68k-softmmu microblaze-softmmu microblazeel-softmmu mips-softmmu mips64-softmmu mips64el-softmmu mipsel-softmmu moxie-softmmu or32-softmmu ppc-softmmu ppc64-softmmu ppcemb-softmmu s390x-softmmu sh4-softmmu sh4eb-softmmu sparc-softmmu sparc64-softmmu tricore-softmmu unicore32-softmmu x86_64-softmmu xtensa-softmmu xtensaeb-softmmu
+tcg debug enabled no
+gprof enabled     no
+sparse enabled    no
+strip binaries    yes
+profiler          no
+static build      no
+pixman            system
+SDL support       no
+GTK support       no
+GNUTLS support    no
+GNUTLS hash       no
+GNUTLS gcrypt     no
+GNUTLS nettle     no ()
+VTE support       no
+curses support    no
+curl support      no
+mingw32 support   yes
+Audio drivers     
+Block whitelist (rw) 
+Block whitelist (ro) 
+VirtFS support    no
+VNC support       yes
+VNC TLS support   no
+VNC SASL support  no
+VNC JPEG support  no
+VNC PNG support   yes
+xen support       no
+brlapi support    no
+bluez  support    no
+Documentation     yes
+GUEST_BASE        yes
+PIE               no
+vde support       no
+netmap support    no
+Linux AIO support no
+ATTR/XATTR support no
+Install blobs     yes
+KVM support       no
+RDMA support      no
+TCG interpreter   no
+fdt support       yes
+preadv support    no
+fdatasync         no
+madvise           no
+posix_madvise     no
+sigev_thread_id   no
+uuid support      no
+libcap-ng support no
+vhost-net support no
+vhost-scsi support no
+Trace backends    nop
+spice support     no
+rbd support       no
+xfsctl support    no
+nss used          no
+libusb            no
+usb net redir     no
+OpenGL support    no
+libiscsi support  no
+libnfs support    no
+build guest agent yes
+QGA VSS support   no
+QGA w32 disk info no
+seccomp support   no
+coroutine backend win32
+coroutine pool    yes
+GlusterFS support no
+Archipelago support no
+gcov              gcov
+gcov enabled      no
+TPM support       yes
+libssh2 support   no
+TPM passthrough   no
+QOM debugging     yes
+vhdx              no
+lzo support       no
+snappy support    no
+bzip2 support     no
+NUMA host support no
+tcmalloc support  no

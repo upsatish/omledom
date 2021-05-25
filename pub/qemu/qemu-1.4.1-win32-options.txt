@@ -1,0 +1,83 @@
+Install prefix    /home/prashants/qemu-1.4.1/qemu-1.4.1-win32
+BIOS directory    /home/prashants/qemu-1.4.1/qemu-1.4.1-win32
+binary directory  /home/prashants/qemu-1.4.1/qemu-1.4.1-win32
+library directory /home/prashants/qemu-1.4.1/qemu-1.4.1-win32/lib
+libexec directory /home/prashants/qemu-1.4.1/qemu-1.4.1-win32/libexec
+include directory /home/prashants/qemu-1.4.1/qemu-1.4.1-win32/include
+config directory  /home/prashants/qemu-1.4.1/qemu-1.4.1-win32
+local state directory   /home/prashants/qemu-1.4.1/qemu-1.4.1-win32
+Source path       /home/prashants/qemu-1.4.1
+C compiler        cc
+Host C compiler   cc
+Objective-C compiler cc
+CFLAGS            -O2 -D_FORTIFY_SOURCE=2 -g 
+QEMU_CFLAGS       -m32 -D__USE_MINGW_ANSI_STDIO=1 -DWIN32_LEAN_AND_MEAN -DWINVER=0x501 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing  -fstack-protector-all -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -IC:/MinGW/include/libpng14   -IC:/MinGW/include/pixman-1  
+LDFLAGS           -Wl,--nxcompat -Wl,--no-seh -Wl,--dynamicbase -Wl,--warn-common -m32 -g 
+make              make
+install           install
+python            /c/Python27/python
+smbd              /usr/sbin/smbd
+host CPU          i386
+host big endian   no
+target list       i386-softmmu x86_64-softmmu alpha-softmmu arm-softmmu cris-softmmu lm32-softmmu m68k-softmmu microblaze-softmmu microblazeel-softmmu mips-softmmu mipsel-softmmu mips64-softmmu mips64el-softmmu or32-softmmu ppc-softmmu ppcemb-softmmu ppc64-softmmu sh4-softmmu sh4eb-softmmu sparc-softmmu sparc64-softmmu s390x-softmmu xtensa-softmmu xtensaeb-softmmu unicore32-softmmu 
+tcg debug enabled no
+gprof enabled     no
+sparse enabled    no
+strip binaries    yes
+profiler          no
+static build      no
+-Werror enabled   no
+pixman            system
+SDL support       no
+curses support    no
+curl support      no
+mingw32 support   yes
+Audio drivers     winwave
+Extra audio cards ac97 es1370 sb16 hda
+Block whitelist   
+Mixer emulation   no
+VirtFS support    no
+VNC support       yes
+VNC TLS support   no
+VNC SASL support  no
+VNC JPEG support  no
+VNC PNG support   yes
+VNC WS support    no
+xen support       no
+brlapi support    no
+bluez  support    no
+Documentation     yes
+NPTL support      no
+GUEST_BASE        yes
+PIE               no
+vde support       no
+Linux AIO support no
+ATTR/XATTR support no
+Install blobs     yes
+KVM support       no
+TCG interpreter   no
+fdt support       no
+preadv support    no
+fdatasync         no
+madvise           no
+posix_madvise     no
+sigev_thread_id   no
+uuid support      no
+libcap-ng support no
+vhost-net support no
+Trace backend     nop
+Trace output file trace-<pid>
+spice support     no (/)
+rbd support       no
+xfsctl support    no
+nss used          no
+usb net redir     no
+OpenGL support    no
+libiscsi support  no
+build guest agent yes
+seccomp support   no
+coroutine backend gthread
+GlusterFS support no
+virtio-blk-data-plane no
+gcov              gcov
+gcov enabled      no

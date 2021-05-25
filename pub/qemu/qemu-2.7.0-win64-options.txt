@@ -1,0 +1,114 @@
+Install prefix    /home/anoth/qemu-2.7.0/qemu-2.7.0-win64
+BIOS directory    /home/anoth/qemu-2.7.0/qemu-2.7.0-win64
+binary directory  /home/anoth/qemu-2.7.0/qemu-2.7.0-win64
+library directory /home/anoth/qemu-2.7.0/qemu-2.7.0-win64/lib
+module directory  /home/anoth/qemu-2.7.0/qemu-2.7.0-win64/lib
+libexec directory /home/anoth/qemu-2.7.0/qemu-2.7.0-win64/libexec
+include directory /home/anoth/qemu-2.7.0/qemu-2.7.0-win64/include
+config directory  /home/anoth/qemu-2.7.0/qemu-2.7.0-win64
+local state directory   queried at runtime
+Windows SDK       no
+Source path       /home/anoth/qemu-2.7.0
+C compiler        cc
+Host C compiler   cc
+C++ compiler      c++
+Objective-C compiler cc
+ARFLAGS           rv
+CFLAGS            -O2 -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -pthread -mms-bitfields -I/mingw64/include/glib-2.0 -I/mingw64/lib/glib-2.0/include -I/mingw64/include -g 
+QEMU_CFLAGS       -I$(SRC_PATH)/pixman/pixman -I$(BUILD_DIR)/pixman/pixman -I$(SRC_PATH)/dtc/libfdt -DHAS_LIBSSH2_SFTP_FSYNC -m64 -mthreads -D__USE_MINGW_ANSI_STDIO=1 -DWIN32_LEAN_AND_MEAN -DWINVER=0x501 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common  -Wendif-labels -Wno-shift-negative-value -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-strong -I/mingw64/include  -I/mingw64/include/libpng16
+LDFLAGS           -Wl,--nxcompat -Wl,--no-seh -Wl,--dynamicbase -Wl,--warn-common -m64 -g 
+make              make
+install           install
+python            /c/Python27/python -B
+smbd              /usr/sbin/smbd
+module support    no
+host CPU          x86_64
+host big endian   no
+target list        aarch64-softmmu alpha-softmmu arm-softmmu cris-softmmu i386-softmmu lm32-softmmu m68k-softmmu microblazeel-softmmu microblaze-softmmu mips64el-softmmu mips64-softmmu mipsel-softmmu mips-softmmu moxie-softmmu or32-softmmu ppc64-softmmu ppcemb-softmmu ppc-softmmu s390x-softmmu sh4eb-softmmu sh4-softmmu sparc64-softmmu sparc-softmmu tricore-softmmu unicore32-softmmu x86_64-softmmu xtensaeb-softmmu xtensa-softmmu
+tcg debug enabled no
+gprof enabled     no
+sparse enabled    no
+strip binaries    yes
+profiler          no
+static build      no
+pixman            internal
+SDL support       no 
+GTK support       no 
+GTK GL support    no
+VTE support       no 
+TLS priority      NORMAL
+GNUTLS support    no
+GNUTLS rnd        no
+libgcrypt         yes
+libgcrypt kdf     yes
+nettle            no 
+nettle kdf        no
+libtasn1          yes
+curses support    no
+virgl support     no
+curl support      no
+mingw32 support   yes
+Audio drivers     dsound
+Block whitelist (rw) 
+Block whitelist (ro) 
+VirtFS support    no
+VNC support       yes
+VNC SASL support  no
+VNC JPEG support  yes
+VNC PNG support   yes
+xen support       no
+brlapi support    no
+bluez  support    no
+Documentation     yes
+PIE               no
+vde support       no
+netmap support    no
+Linux AIO support no
+ATTR/XATTR support no
+Install blobs     yes
+KVM support       no
+RDMA support      no
+TCG interpreter   no
+fdt support       yes
+preadv support    no
+fdatasync         no
+madvise           no
+posix_madvise     no
+uuid support      no
+libcap-ng support no
+vhost-net support no
+vhost-scsi support no
+Trace backends    log
+spice support     no 
+rbd support       no
+xfsctl support    no
+smartcard support no
+libusb            no
+usb net redir     no
+OpenGL support    no
+OpenGL dmabufs    no
+libiscsi support  no
+libnfs support    no
+build guest agent yes
+QGA VSS support   no
+QGA w32 disk info yes
+QGA MSI support   no
+seccomp support   no
+coroutine backend win32
+coroutine pool    yes
+GlusterFS support no
+Archipelago support no
+gcov              gcov
+gcov enabled      no
+TPM support       yes
+libssh2 support   yes
+TPM passthrough   no
+QOM debugging     yes
+vhdx              no
+lzo support       no
+snappy support    no
+bzip2 support     yes
+NUMA host support no
+tcmalloc support  no
+jemalloc support  no
+avx2 optimization no
